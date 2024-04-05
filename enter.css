@@ -1,0 +1,153 @@
+/* 全体の背景色 */
+body {
+  background-color: #f0f7ff; /* 水色がかった淡い背景 */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* メモ入力エリア */
+.container.form-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 192, 203, 0.5);
+}
+
+.btn-primary {
+  background-color: #ffc0cb;
+  border-color: #ffc0cb;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 100px; 
+  display: block;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-primary:hover {
+  background-color: #ff9999;
+  .container.form-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .form-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    width: 100%;
+  }
+  
+  .form-control:focus {
+    outline: none;
+  }
+  
+  .btn-primary {
+    background-color: #ffc0cb;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff9999;
+    border-color: #ff9999;
+  }
+  
+  /* 一覧表示ボタン */
+  .fixed-bottom {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-create {
+    background-color: #ffc0cb;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-create:hover {
+    background-color: #ff9999;
+    color: #fff;
+  }
+}
+
+/* 一覧表示ボタン */
+.fixed-bottom {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-create {
+  background-color: #f89dac; /* 薄いピンク */
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-create:hover {
+  background-color: #e76565; /* やや濃い目のピンク */
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

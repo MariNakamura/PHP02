@@ -1,0 +1,72 @@
+/* 全体の背景色 */
+body {
+    background-color: #f0f7ff; /* 水色がかった淡い背景 */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  /* メモ一覧エリア */
+  .container {
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .text-muted {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .fixed-bottom {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-create {
+    background-color: #f89dac; /* 薄いピンク */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-create:hover {
+    background-color: #e76565; /* やや濃い目のピンク */
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
